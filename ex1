@@ -7,8 +7,8 @@ class Monster:
     def show_info(self):
         print("====Info====")
         print("Name:", self.name)
-        print("HP:", self.hp)
-        print("Dmg:", self.dmg)
+        print("🐟 HP:", self.hp)
+        print("⚔️ Dmg:", self.dmg)
         print("============")
         
 m1 = Monster("Горгулья", 120, 18)
